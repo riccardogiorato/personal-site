@@ -8,46 +8,54 @@ export default function Home() {
 
         <div className="space-y-6 text-base leading-relaxed text-foreground">
           <p>
-            I'm a developer and creator. I work at{" "}
+            I'm a developer living in New York City. I love building open source AI apps and teaching developers about
+            AI – and I'm lucky enough that I get to do both for work.
+          </p>
+
+          <p>
+            Currently, I lead Developer Experience at{" "}
+            <Link
+              href="https://together.ai"
+              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              Together AI
+            </Link>{" "}
+            and spend my time managing a wonderful team and working on demos, docs, and content. Before that, I worked
+            at a few startups like{" "}
             <Link
               href="https://vercel.com"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
               Vercel
             </Link>{" "}
-            building tools that help developers ship faster. Previously, I've worked on various projects in the AI and
-            web development space.
+            and ran my own game marketing company for a while too.
           </p>
 
-          <p>
-            My work focuses on making technology more accessible and easier to use. I'm passionate about developer
-            experience, design systems, and creating products that people love. I enjoy writing about what I learn and
-            sharing knowledge with the community.
-          </p>
+          <p>In my spare time, I enjoy playing ping pong and hanging out with my wonderful wife.</p>
 
           <p>
-            You can find me on{" "}
+            You can find me online on{" "}
             <Link
-              href="https://twitter.com/nutlope"
+              href="https://x.com/nutlope"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
-              Twitter
+              X
             </Link>
             ,{" "}
-            <Link
-              href="https://github.com/nutlope"
-              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
-            >
-              GitHub
-            </Link>
-            , and{" "}
             <Link
               href="https://linkedin.com/in/hassan-el-mghari"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
               LinkedIn
             </Link>
-            . Feel free to reach out if you'd like to chat.
+            , and{" "}
+            <Link
+              href="https://github.com/nutlope"
+              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              GitHub
+            </Link>{" "}
+            where I share my open source apps and guides for building with AI.
           </p>
         </div>
       </div>
