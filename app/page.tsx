@@ -110,7 +110,7 @@ export default function Home() {
             </Link>{" "}
             or{" "}
             <Link
-              href="https://linkedin.com/in/hassan-el-mghari"
+              href="https://www.linkedin.com/in/nutlope/"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
               target="_blank"
             >
