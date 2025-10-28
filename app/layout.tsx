@@ -8,17 +8,14 @@ export const metadata: Metadata = {
   title: "Hassan El Mghari",
   description:
     "Developer living in New York City. Building open source AI apps and leading Developer Experience at Together AI.",
-  generator: "v0.app",
   metadataBase: new URL("https://nutlope.com"),
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "Hassan El Mghari",
-    description:
-      "Developer living in New York City. Building open source AI apps and leading Developer Experience at Together AI.",
+    description: "Developer living in New York City",
     url: "https://nutlope.com",
     siteName: "Hassan El Mghari",
     images: [
@@ -35,8 +32,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Hassan El Mghari",
-    description:
-      "Developer living in New York City. Building open source AI apps and leading Developer Experience at Together AI.",
+    description: "Developer living in New York City.",
     images: ["/og-image.jpg"],
   },
 }
