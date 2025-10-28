@@ -1,8 +1,12 @@
 import type React from "react"
 import type { Metadata } from "next"
+import { Geist, Geist_Mono } from "next/font/google"
 import PlausibleProvider from "next-plausible"
 
 import "./globals.css"
+
+const _geist = Geist({ subsets: ["latin"] })
+const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Hassan El Mghari",
@@ -15,7 +19,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Hassan El Mghari",
-    description: "Developer living in New York City",
+    description: "Developer living in New York City.",
     url: "https://nutlope.com",
     siteName: "Hassan El Mghari",
     images: [
