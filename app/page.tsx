@@ -29,15 +29,9 @@ export default function Home() {
             >
               Together AI
             </Link>{" "}
-            and spend my time managing a talented team and working on demos,
-            docs, and content. Before that, I worked at a few startups like{" "}
-            <Link
-              href="https://vercel.com"
-              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
-            >
-              Vercel
-            </Link>{" "}
-            and ran my own game marketing company for a while too.
+            where I manage a talented team and work on demos, docs, and content.
+            Before that, I worked at a few startups like Vercel and ran my own
+            game marketing company for a while too.
           </p>
 
           <p>
@@ -60,14 +54,21 @@ export default function Home() {
             >
               LinkedIn
             </Link>
-            , and{" "}
+            ,{" "}
+            <Link
+              href="https://nutlope.substack.com/"
+              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              Substack
+            </Link>{" "}
+            and{" "}
             <Link
               href="https://github.com/nutlope"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
               GitHub
             </Link>{" "}
-            where I share my open source apps and guides for building with AI.
+            where I share my open source apps and tips for building with AI.
           </p>
         </div>
       </div>
