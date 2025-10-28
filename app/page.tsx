@@ -4,12 +4,21 @@ export default function Home() {
   return (
     <main className="min-h-screen px-6 py-16 md:py-24">
       <div className="mx-auto max-w-2xl">
-        <h1 className="mb-8 text-3xl font-semibold tracking-tight text-foreground">Hassan El Mghari</h1>
+        <h1 className="mb-8 text-3xl font-semibold tracking-tight text-foreground">
+          Hassan El Mghari
+        </h1>
 
         <div className="space-y-6 text-base leading-relaxed text-foreground">
           <p>
-            I'm a developer living in New York City. I love building open source AI apps and teaching developers about
-            AI – and I'm lucky enough that I get to do both for work.
+            I'm a developer living in New York City. I love{" "}
+            <Link
+              href="https://github.com/nutlope"
+              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              building open source AI apps
+            </Link>{" "}
+            and teaching developers about AI – and I'm lucky enough that I get
+            to do both for work.
           </p>
 
           <p>
@@ -20,8 +29,8 @@ export default function Home() {
             >
               Together AI
             </Link>{" "}
-            and spend my time managing a wonderful team and working on demos, docs, and content. Before that, I worked
-            at a few startups like{" "}
+            and spend my time managing a talented team and working on demos,
+            docs, and content. Before that, I worked at a few startups like{" "}
             <Link
               href="https://vercel.com"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
@@ -31,7 +40,10 @@ export default function Home() {
             and ran my own game marketing company for a while too.
           </p>
 
-          <p>In my spare time, I enjoy playing ping pong and hanging out with my wonderful wife.</p>
+          <p>
+            In my spare time, I enjoy playing ping pong and hanging out with my
+            wonderful wife.
+          </p>
 
           <p>
             You can find me online on{" "}

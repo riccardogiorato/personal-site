@@ -13,6 +13,11 @@ export const metadata: Metadata = {
     "Developer living in New York City. Building open source AI apps and leading Developer Experience at Together AI.",
   generator: "v0.app",
   metadataBase: new URL("https://nutlope.com"),
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Hassan El Mghari",
     description:
