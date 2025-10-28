@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -46,29 +47,37 @@ export default function Home() {
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
               X
-            </Link>
-            ,{" "}
+            </Link>{" "}
+            or{" "}
             <Link
               href="https://linkedin.com/in/hassan-el-mghari"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
               LinkedIn
-            </Link>
-            ,{" "}
+            </Link>{" "}
+            where I share my open source apps and tips for building with AI. I
+            also{" "}
             <Link
               href="https://nutlope.substack.com/"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
-              Substack
-            </Link>{" "}
-            and{" "}
+              write
+            </Link>
+            ,{" "}
             <Link
               href="https://github.com/nutlope"
               className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
             >
-              GitHub
+              code
+            </Link>
+            , and{" "}
+            <Link
+              href="https://www.youtube.com/@HassanElMghari"
+              className="text-accent underline decoration-accent/30 underline-offset-4 transition-colors hover:decoration-accent"
+            >
+              make videos
             </Link>{" "}
-            where I share my open source apps and tips for building with AI.
+            about building with AI.
           </p>
         </div>
       </div>
